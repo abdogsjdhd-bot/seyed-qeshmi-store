@@ -1,4 +1,4 @@
-name = "crf39"
+name = "seyed-qeshmi-store"
 main = "index.js"
 compatibility_date = "2026-09-25"
 
@@ -8,5 +8,5 @@ binding = "ASSETS"
 
 [[d1_databases]]
 binding = "DB"
-database_name = "seyed-qeshmi-db"
-database_id = "1ce51307-aa51-4a55-b5e5-1d81bcf3efb8"
+database_name = "seyed-qeshmi-store"
+database_id = "DATABASE_ID"
