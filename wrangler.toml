@@ -9,4 +9,4 @@ binding = "ASSETS"
 [[d1_databases]]
 binding = "DB"
 database_name = "seyed-qeshmi-db"
-database_id = "PUT_YOUR_D1_DATABASE_ID_HERE"
+database_id = "1ce51307-aa51-4a55-b5e5-1d81bcf3efb8"
