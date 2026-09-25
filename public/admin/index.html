@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>پنل مدیریت | سید قشمی</title>
+
+  <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+
+<main class="wrap">
+
+  <!-- LOGIN -->
+
+  <section id="login" class="card">
+
+    <h2>ورود مدیریت</h2>
+
+    <input
+      id="password"
+      type="password"
+      placeholder="رمز مدیریت"
+    >
+
+    <button class="btn" id="loginBtn">
+      ورود
+    </button>
+
+    <p id="msg"></p>
+
+  </section>
+
+
+  <!-- PANEL -->
+
+  <div id="panel" hidden>
+
+    <section>
+
+      <h1>پنل مدیریت فروشگاه</h1>
+
+      <div class="card">
+
+        <h2>افزودن محصول</h2>
+
+        <input
+          id="name"
+          placeholder="نام محصول"
+        >
+
+        <input
+          id="price"
+          type="number"
+          placeholder="قیمت"
+        >
+
+        <input
+          id="old"
+          type="number"
+          placeholder="قیمت قبلی"
+        >
+
+        <input
+          id="discount"
+          type="number"
+          placeholder="درصد تخفیف"
+        >
+
+        <input
+          id="image"
+          placeholder="لینک تصویر محصول"
+        >
+
+        <textarea
+          id="desc"
+          placeholder="توضیحات محصول"
+        ></textarea>
+
+        <select id="category"></select>
+
+        <button class="btn" id="add">
+          افزودن محصول
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <section>
+
+      <h2>محصولات</h2>
+
+      <div id="items"></div>
+
+    </section>
+
+  </div>
+
+</main>
+
+<script src="/admin.js"></script>
+
+</body>
+</html>
